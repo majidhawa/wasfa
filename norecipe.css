@@ -1,0 +1,51 @@
+body{
+    margin: 7%;
+    background-color:#F7E5D7;
+    background-image: url(images/imageedit_1_6834524036.png);
+}
+.addrec{
+    color: white;
+    text-decoration: none;
+}
+
+.norecipepage{
+    width: 800px;
+  margin-left: 380px;
+    background-color:#F7E5D7;
+  display: grid;
+  border: solid ;
+
+  grid-template-rows: auto  auto;
+    grid-template-rows: auto;
+        box-shadow: 5px 4px 10px #b51cc9;
+        -moz-box-shadow: 5px 4px 10px #441868;
+        -webkit-box-shadow: 5px 4px 10px #451461;
+}
+button {
+    display: inline-block;
+    background-color: #FD043C;
+    padding: 20px;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-size:medium;
+    border-radius: 20px;
+}
+  #emptyicon{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+ 
+h1{
+    color: #FD043C;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#btn{
+    padding-left: 330px;
+}
+#mg{
+    padding-left: 260px;
+}

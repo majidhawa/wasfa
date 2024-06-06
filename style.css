@@ -1,0 +1,73 @@
+body{
+    background-color:#F7E5D7;
+    margin: 4% 10%;
+}
+.landingpage{
+    
+    display:grid;
+    grid-template-columns:76% 22%;
+    object-fit: fill;
+        background-color: #eee;
+        box-shadow: 5px 4px 10px #b51cc9;
+        -moz-box-shadow: 5px 4px 10px #441868;
+        -webkit-box-shadow: 5px 4px 10px #451461;
+    
+}
+#landingimage{
+    position: relative;
+        top: 0;
+        right: 80px;
+        width: 450px;
+      
+       
+    
+}
+.landingleft{
+padding-left: 100px;
+padding-top: 70px;
+}
+.landingright{
+    background-color: #FD043C;
+    position: relative;
+    top: 0;
+    left: 0;
+
+
+}
+
+.viewrecipe{
+    color: white;
+    text-decoration: none;
+  }
+  #btn{
+    margin-bottom: 10%;
+  }
+#h1{
+    color: rgb(216, 53, 80);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+#h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+#h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#img{
+    position: absolute;
+    top: 90px;
+    right: 200px;
+   
+}
+button {
+    display: inline-block;
+    background-color: #FD043C;
+    padding: 20px;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-size:medium;
+    border-radius: 20px;
+  }

@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url(images/imageedit_1_6834524036.png);
+  background-color: #F7E5D7;
+
+}
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.recipe {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #F7E5D7;
+  box-shadow: 5px 4px 10px #b51cc9;
+        -moz-box-shadow: 5px 4px 10px #441868;
+        -webkit-box-shadow: 5px 4px 10px #451461;
+        flex-basis: calc(33.333% - 20px); 
+        margin: 10px;
+      }
+
+h3 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+button {
+  background-color: rgb(212, 38, 67);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #dd86c3;
+}
+#recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Optional: Adds space around items */
+}
